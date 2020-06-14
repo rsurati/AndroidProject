@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.phrm">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/health_record_app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/health_record_app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Privacy"></activity>
+        <activity android:name=".About" />
+        <activity android:name=".Help" />
+        <activity android:name=".Settings" />
+        <activity android:name=".EmergencyContactsDetails" />
+        <activity android:name=".InsuranceDetails" />
+        <activity android:name=".InsuranceList" />
+        <activity android:name=".ImmunizationsDetails" />
+        <activity android:name=".ImmunizationsList" />
+        <activity android:name=".LifeHabitsAndRisksDetails" />
+        <activity android:name=".LifeHabitsAndRisksList" />
+        <activity android:name=".LifeHabitsAndRisks" />
+        <activity android:name=".DrugsDetails" />
+        <activity android:name=".DrugsList" />
+        <activity android:name=".Drugs" />
+        <activity android:name=".BloodReportAndOtherTestDetails" />
+        <activity android:name=".BloodReportAndOtherTestList" />
+        <activity android:name=".BloodReportsAndOtherTest" />
+        <activity android:name=".MedicalHistoryDetails" />
+        <activity android:name=".MedicalHistoryList" />
+        <activity android:name=".MedicalHistory" />
+        <activity android:name=".MedicalDocumentDetails" />
+        <activity android:name=".Immunizations" />
+        <activity android:name=".MedicalDocumentList" />
+        <activity android:name=".PersonalInfoDetails" />
+        <activity android:name=".Medical_Documents" />
+        <activity android:name=".insurance_details" />
+        <activity android:name=".Forgotpassword" />
+        <activity android:name=".BodyMeasurementsDetails" />
+        <activity android:name=".BodyMeasurementsList" />
+        <activity android:name=".EmergencyContactsList" />
+        <activity android:name=".AllergyDetails" />
+        <activity android:name=".AllergiesList" />
+        <activity android:name=".AppointmentDetails" />
+        <activity android:name=".AppointmentsVisitList" />
+        <activity android:name=".BodyMeasurements" />
+        <activity android:name=".EmergencyContacts" />
+        <activity android:name=".Allergy" />
+        <activity android:name=".Appointments_Visits" />
+        <activity android:name=".Personal_Info" />
+        <activity
+            android:name=".Add_Member"
+            android:theme="@style/AppTheme.PopUp" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".UserHome" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".AlarmReceiver" />
+    </application>
+
+</manifest>
